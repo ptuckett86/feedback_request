@@ -27,7 +27,7 @@ setup(
     long_description=README,
     url="",
     author="Paul Tuckett",
-    author_email="paul.tuckett@xenetixsoftware.com",
+    author_email="",
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",

@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 
-from xenetix_feedback_app.permissions import IsSuperUser
+from feedback_app.permissions import IsSuperUser
 from .filters import FeedbackFilter, FeedbackResponseFilter
 from .models import Feedback, FeedbackResponse
 from .serializers import (

@@ -2,7 +2,7 @@ from django.db import transaction
 from django.conf import settings
 from rest_flex_fields import FlexFieldsModelSerializer
 from rest_framework import serializers
-from xenetix_feedback_app.methods import send_urgent_mail
+from feedback_app.methods import send_urgent_mail
 from .models import Feedback, FeedbackResponse
 
 

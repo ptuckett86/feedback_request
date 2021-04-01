@@ -3,7 +3,7 @@
 from django.conf import settings
 from django.db import migrations, models
 import django.db.models.deletion
-import xenetix_feedback_app.methods
+import feedback_app.methods
 
 
 class Migration(migrations.Migration):
@@ -42,7 +42,7 @@ class Migration(migrations.Migration):
                     "attachment",
                     models.ImageField(
                         null=True,
-                        upload_to=xenetix_feedback_app.methods.user_directory_path,
+                        upload_to=feedback_app.methods.user_directory_path,
                     ),
                 ),
                 (

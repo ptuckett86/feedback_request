@@ -15,7 +15,7 @@ def get_secret(setting, secrets=secrets):
 
 
 def main():
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "xenetix_feedback_app.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "feedback_app.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

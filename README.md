@@ -4,7 +4,7 @@ This app is used as a package used for leaving feedback about your app. Users wi
 
 
 
-1. Run `pip install git+https://bitbucket.org/xenetix_software/xenetix_feedback_app/src/production/`
+1. Run `pip install git+https://bitbucket.org/software/eedback_app/src/production/`
 -------
 
 
@@ -20,7 +20,7 @@ This app is used as a package used for leaving feedback about your app. Users wi
 3. Add feedback email setting to your settings.py file:
 -----------------------------------------------------
 ```
-FEEDBACK_TO_EMAIL = ["dev@xenetixsoftware.com"]
+FEEDBACK_TO_EMAIL = ["email@example.com"]
 ```
 -----------------------------------------------------
 4. Add to your urls.py or routes.py.
