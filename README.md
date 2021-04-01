@@ -4,7 +4,7 @@ This app is used as a package used for leaving feedback about your app. Users wi
 
 
 
-1. Run `pip install git+https://bitbucket.org/software/eedback_app/src/production/`
+1. Run `pip install git+https://github.org/ptuckett86/feedback_request/src/master/`
 -------
 
 
