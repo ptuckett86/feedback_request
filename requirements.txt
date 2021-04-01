@@ -1,0 +1,8 @@
+Django>=3.0.7
+django_filter==2.3.0
+djangorestframework==3.11.0
+drf-flex-fields==0.8.5
+Pillow==6.0.0
+pytz==2019.1
+six==1.15.0
+sqlparse==0.3.0÷
